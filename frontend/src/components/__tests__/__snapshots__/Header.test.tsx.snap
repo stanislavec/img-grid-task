@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <a
+      class="button active"
+      href="/"
+    >
+      Photos
+    </a>
+    <a
+      class="button"
+      href="/favorites"
+    >
+      Favorites
+    </a>
+  </header>
+</div>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout matches snapshot 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <a
+      class="button active"
+      href="/"
+    >
+      Photos
+    </a>
+    <a
+      class="button"
+      href="/favorites"
+    >
+      Favorites
+    </a>
+  </header>
+  some test child
+</div>
+`;
+
+exports[`Layout matches snapshot with no children passed 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <a
+      class="button active"
+      href="/"
+    >
+      Photos
+    </a>
+    <a
+      class="button"
+      href="/favorites"
+    >
+      Favorites
+    </a>
+  </header>
+</div>
+`;

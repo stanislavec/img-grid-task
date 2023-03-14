@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photo matches snapshot if photo does not exists 1`] = `
+<div>
+  Seems, image does not exist
+</div>
+`;
+
+exports[`Photo matches snapshot if photo exists 1`] = `
+<div>
+  <div
+    class="photo"
+  >
+    <img
+      alt="https://unsplash.com/photos/LF8gK8-HGSg"
+      src="https://picsum.photos/id/5/5000/3334"
+    />
+    <button
+      class="button"
+    >
+      Remove from favorites
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Photo matches snapshot if photo exists but not favorite 1`] = `
+<div>
+  <div
+    class="photo"
+  >
+    <img
+      alt="https://unsplash.com/photos/LF8gK8-HGSg"
+      src="https://picsum.photos/id/5/5000/3334"
+    />
+    This photo is not the favorite one
+  </div>
+</div>
+`;

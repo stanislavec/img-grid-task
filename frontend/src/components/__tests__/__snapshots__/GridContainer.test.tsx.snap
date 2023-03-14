@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridContainer is matches snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <p>
+      1
+    </p>
+    <p>
+      2
+    </p>
+    <p>
+      3
+    </p>
+    <p>
+      4
+    </p>
+  </div>
+</div>
+`;
+
+exports[`GridContainer is matches snapshot with empty result 1`] = `
+<div>
+  <div
+    class="empty"
+  >
+    No data...
+  </div>
+</div>
+`;

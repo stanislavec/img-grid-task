@@ -1,0 +1,19 @@
+@import '../styles/_mixin.scss';
+
+.gridItem {
+  @include transition;
+
+  position: relative;
+
+  opacity: 0.9;
+  cursor: pointer;
+
+  & img {
+    @include image;
+    width: 100%;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

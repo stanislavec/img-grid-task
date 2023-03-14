@@ -1,0 +1,39 @@
+@import '../styles/_variables.scss';
+
+.row {
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+
+  margin: 20px;
+
+  &:after {
+    content: ' ';
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 5px solid $blue;
+    border-color: $blue transparent $blue transparent;
+    animation: rotateLoader 1s linear infinite;
+  }
+}
+
+@keyframes rotateLoader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

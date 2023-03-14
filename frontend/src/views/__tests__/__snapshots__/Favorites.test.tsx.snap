@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites matches snapshot with photos 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="gridItem"
+    >
+      <img
+        alt="https://unsplash.com/photos/yC-Yzbqy7PY"
+        src="https://picsum.photos/id/0/5000/3333"
+      />
+    </div>
+    <div
+      class="gridItem"
+    >
+      <img
+        alt="https://unsplash.com/photos/LNRyGwIJr5c"
+        src="https://picsum.photos/id/1/5000/3333"
+      />
+    </div>
+    <div
+      class="gridItem"
+    >
+      <img
+        alt="https://unsplash.com/photos/N7XodRrbzS0"
+        src="https://picsum.photos/id/2/5000/3333"
+      />
+    </div>
+    <div
+      class="gridItem"
+    >
+      <img
+        alt="https://unsplash.com/photos/Dl6jeyfihLk"
+        src="https://picsum.photos/id/3/5000/3333"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Favorites matches snapshot without photos 1`] = `
+<div>
+  <div
+    class="empty"
+  >
+    No data...
+  </div>
+</div>
+`;

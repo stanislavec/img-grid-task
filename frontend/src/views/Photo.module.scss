@@ -1,0 +1,18 @@
+@import '../styles/_variables.scss';
+@import '../styles/_mixin.scss';
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 12px;
+
+  & img {
+    @include image;
+
+    width: 90%;
+
+    margin-bottom: 30px;
+  }
+}

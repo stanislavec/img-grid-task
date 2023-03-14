@@ -1,0 +1,7 @@
+@mixin transition {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin image {
+  border-radius: 12px;
+}
