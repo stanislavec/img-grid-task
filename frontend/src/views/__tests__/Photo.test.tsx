@@ -6,8 +6,6 @@ import PHOTOS from './__mocks__/photo';
 
 jest.mock('context/useImageContext');
 
-const mockUseNavigate = jest.fn();
-
 const mockUsePhotoContext = usePhotoContext as jest.MockedFunction<typeof usePhotoContext>;
 
 describe('Photo', () => {
