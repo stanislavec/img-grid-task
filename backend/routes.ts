@@ -1,5 +1,5 @@
 const ROUTES = {
-  getImages: '/api/getImages',
+  getImages: '/getImages',
 };
 
 export default ROUTES;
